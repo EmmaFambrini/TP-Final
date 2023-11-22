@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 400px 20px;
+}
+
+.header {
+    background: rgb(178, 238, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > a {
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    background: rgb(172, 50, 242);
+    color: rgb(211, 209, 209);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+nav > a {
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    background: rgb(85, 92, 242);
+    color: rgb(211, 209, 209);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+nav > a:hover {
+    background: rgb(60, 69, 238);
+}
+
+.main {
+    background: rgb(247, 156, 156);
+}
+
+.footer {
+    background: rgb(162, 162, 162);
+}
